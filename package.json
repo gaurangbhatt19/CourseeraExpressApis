@@ -1,0 +1,22 @@
+{
+  "name": "express_api",
+  "version": "1.0.0",
+  "description": "Coursera Peer-Graded ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurangbhatt19/CourseeraExpressApis.git"
+  },
+  "author": "Gaurang Bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurangbhatt19/CourseeraExpressApis/issues"
+  },
+  "homepage": "https://github.com/gaurangbhatt19/CourseeraExpressApis#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
