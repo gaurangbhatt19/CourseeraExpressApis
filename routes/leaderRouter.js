@@ -1,8 +1,8 @@
 const express= require('express');
 const router=express.Router();
 
-// Leader Route
-router.route("/leaders").get((req,res)=>{
+
+router.route("").get((req,res)=>{
     res.send("GET Leader"); 
 }).post((req,res)=>{
     res.send("POST Leader");
@@ -15,9 +15,9 @@ router.route("/leaders").get((req,res)=>{
 
 });
 
-// LeaderID
 
-router.route("/leaders/:leaderId").get((req,res)=>{
+
+router.route("/:leaderId").get((req,res)=>{
     res.send("Leader ID: "+req.params.leaderId); 
 }).post((req,res)=>{
     res.send("Added Leader ID: "+req.params.leaderId );

@@ -1,6 +1,6 @@
 const express= require('express');
 const router=express.Router();
-router.route("/dishes/:dishId").get((req,res)=>{
+router.route("/:dishId").get((req,res)=>{
     res.send("Dish ID: "+req.params.dishId);
 
 

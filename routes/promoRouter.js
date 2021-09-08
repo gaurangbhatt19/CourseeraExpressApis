@@ -2,7 +2,7 @@ const express= require('express');
 const router=express.Router();
 
 
-router.route("/promotions").get((req,res)=>{
+router.route("").get((req,res)=>{
     res.send("GET promotions"); 
 }).post((req,res)=>{
     res.send("POST promotions");
@@ -17,7 +17,7 @@ router.route("/promotions").get((req,res)=>{
 
 
 
-router.route("/promotions/:promoId").get((req,res)=>{
+router.route("/:promoId").get((req,res)=>{
     res.send("Promo ID: "+req.params.promoId); 
 }).post((req,res)=>{
     res.send("Added Promo ID: "+req.params.promoId );
